@@ -161,7 +161,6 @@ namespace Jdh
             Wave(-1, -1, rowStartWave, columStartWave - 3, semaphoreObject, color);
         }
 
-
         static void Main(string[] args)
         {
             Semaphore semaphoreObject = new Semaphore(initialCount: 1, maximumCount: 1, name: "Jdf");
@@ -256,11 +255,9 @@ namespace Jdh
                     i++;
                 }
                 i = 0;
-                PrintJDH(ColoreColor.White);
-                //System.Threading.Thread.Sleep(500);
-                //PrintJDH(ColoreColor.Black);
+                //PrintJDH(ColoreColor.White);
 
-                System.Threading.Thread.Sleep(10000);
+               // System.Threading.Thread.Sleep(10000);
             }
         }
     }
